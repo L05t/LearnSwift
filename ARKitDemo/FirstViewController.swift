@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstViewController.swift
 //  ARKitDemo
 //
 //  Created by shuidi_iMac on 2017/8/3.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegate{
-
+class FirstViewController: BaseViewController,UITableViewDataSource,UITableViewDelegate{
     @IBOutlet weak var tableView: UITableView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.tableFooterView = UIView();
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,18 +22,9 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         // Dispose of any resources that can be recreated.
     }
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated);
-        
-    };
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated);
-    }
-    
-    lazy var dataList : [String] = {
-        return ["1","2","3"]
-    }()
+    lazy var dataList:[String] = {
+        return ["1","2","3"];
+    }();
     
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -39,20 +32,21 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataList.count;
+        return 10;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cell");
+        var cell = tableView.dequeueReusableCell(withIdentifier: "Cell");
         if cell == nil {
-            cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell");
+            cell = UITableViewCell(style: UITableViewCellStyle.default,reuseIdentifier:"Cell");
         }
-        cell?.textLabel?.text = dataList[indexPath.row];
-        cell?.detailTextLabel?.text = dataList[indexPath.row];
         return cell!;
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let secondVC = SecondViewController();
+        self.navigationController?.pushViewController(secondVC, animated: true);
+    }
     
-}
 
+}

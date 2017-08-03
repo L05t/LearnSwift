@@ -14,6 +14,14 @@
 		05897C5F1F32E62B00FF7DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05897C5D1F32E62B00FF7DB1 /* LaunchScreen.storyboard */; };
 		05897C6A1F32E62B00FF7DB1 /* ARKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C691F32E62B00FF7DB1 /* ARKitDemoTests.swift */; };
 		05897C751F32E62B00FF7DB1 /* ARKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C741F32E62B00FF7DB1 /* ARKitDemoUITests.swift */; };
+		05897C831F32F8D500FF7DB1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C821F32F8D500FF7DB1 /* BaseViewController.swift */; };
+		05897C881F32FA9100FF7DB1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C861F32FA9100FF7DB1 /* FirstViewController.swift */; };
+		05897C891F32FA9100FF7DB1 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05897C871F32FA9100FF7DB1 /* FirstViewController.xib */; };
+		05897C8B1F32FBCE00FF7DB1 /* BaseNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C8A1F32FBCE00FF7DB1 /* BaseNavigationViewController.swift */; };
+		05897C8E1F33004200FF7DB1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C8C1F33004200FF7DB1 /* SecondViewController.swift */; };
+		05897C8F1F33004200FF7DB1 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05897C8D1F33004200FF7DB1 /* SecondViewController.xib */; };
+		05897C921F3308A600FF7DB1 /* SecondVCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05897C901F3308A600FF7DB1 /* SecondVCCollectionViewCell.swift */; };
+		05897C931F3308A600FF7DB1 /* SecondVCCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05897C911F3308A600FF7DB1 /* SecondVCCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		05897C701F32E62B00FF7DB1 /* ARKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05897C741F32E62B00FF7DB1 /* ARKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoUITests.swift; sourceTree = "<group>"; };
 		05897C761F32E62B00FF7DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05897C821F32F8D500FF7DB1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		05897C861F32FA9100FF7DB1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		05897C871F32FA9100FF7DB1 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		05897C8A1F32FBCE00FF7DB1 /* BaseNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationViewController.swift; sourceTree = "<group>"; };
+		05897C8C1F33004200FF7DB1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		05897C8D1F33004200FF7DB1 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		05897C901F3308A600FF7DB1 /* SecondVCCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVCCollectionViewCell.swift; sourceTree = "<group>"; };
+		05897C911F3308A600FF7DB1 /* SecondVCCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVCCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				05897C541F32E62B00FF7DB1 /* AppDelegate.swift */,
 				05897C561F32E62B00FF7DB1 /* ViewController.swift */,
+				05897C8A1F32FBCE00FF7DB1 /* BaseNavigationViewController.swift */,
+				05897C821F32F8D500FF7DB1 /* BaseViewController.swift */,
+				05897C861F32FA9100FF7DB1 /* FirstViewController.swift */,
+				05897C871F32FA9100FF7DB1 /* FirstViewController.xib */,
+				05897C8C1F33004200FF7DB1 /* SecondViewController.swift */,
+				05897C8D1F33004200FF7DB1 /* SecondViewController.xib */,
+				05897C901F3308A600FF7DB1 /* SecondVCCollectionViewCell.swift */,
+				05897C911F3308A600FF7DB1 /* SecondVCCollectionViewCell.xib */,
 				05897C581F32E62B00FF7DB1 /* Main.storyboard */,
 				05897C5B1F32E62B00FF7DB1 /* Assets.xcassets */,
 				05897C5D1F32E62B00FF7DB1 /* LaunchScreen.storyboard */,
@@ -236,8 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05897C5F1F32E62B00FF7DB1 /* LaunchScreen.storyboard in Resources */,
+				05897C931F3308A600FF7DB1 /* SecondVCCollectionViewCell.xib in Resources */,
 				05897C5C1F32E62B00FF7DB1 /* Assets.xcassets in Resources */,
 				05897C5A1F32E62B00FF7DB1 /* Main.storyboard in Resources */,
+				05897C891F32FA9100FF7DB1 /* FirstViewController.xib in Resources */,
+				05897C8F1F33004200FF7DB1 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05897C8E1F33004200FF7DB1 /* SecondViewController.swift in Sources */,
+				05897C881F32FA9100FF7DB1 /* FirstViewController.swift in Sources */,
 				05897C571F32E62B00FF7DB1 /* ViewController.swift in Sources */,
 				05897C551F32E62B00FF7DB1 /* AppDelegate.swift in Sources */,
+				05897C921F3308A600FF7DB1 /* SecondVCCollectionViewCell.swift in Sources */,
+				05897C8B1F32FBCE00FF7DB1 /* BaseNavigationViewController.swift in Sources */,
+				05897C831F32F8D500FF7DB1 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XB9G77HU3C;
 				INFOPLIST_FILE = ARKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DripCarCompany.ARKit.ARKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XB9G77HU3C;
 				INFOPLIST_FILE = ARKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DripCarCompany.ARKit.ARKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
